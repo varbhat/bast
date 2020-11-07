@@ -2,10 +2,6 @@
 Compiler for BAST(Basic Tiny) - A Tiny Toy Basic Dialect
 
 # Introduction
-I got to read wonderful post titled [Let's make a Teeny Tiny compiler](http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html) by [AZHenly](https://github.com/AZHenley).
-He implemented the compiler with Python. I who wanted to know how compiler works/write a compiler , read that post, understood the implementation , wrote the compiler from scratch in Golang.
-Although the language for both the compilers are same,mine is written from scratch in Golang ,implemented by instructions of his post.
-
 This compiler takes code written in bast and compiles(transpiles) to C code.You need to compile the C code with C compiler (gcc/tcc/clang are tested to work) to produce executable.
 
 This provided the opportunity to learn about lexing,parsing and to learn more Golang. I believe that this toy language will not be used other than for educational purpose(for people like past-me).
@@ -65,7 +61,7 @@ ENDWHILE
 You can find more examples at [Examples](https://github.com/varbhat/bast/tree/master/examples)
 
 # Thanks
-Thanks to [AZHenly](https://github.com/AZHenley) for his post.
+Thanks to [AZHenly](https://github.com/AZHenley) for his post. I got to read wonderful post titled [Let's make a Teeny Tiny compiler](http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html) by [AZHenly](https://github.com/AZHenley). He implemented the compiler with Python. I who wanted to know how compiler works/write a compiler , read that post, understood the implementation , wrote the compiler from scratch in Golang. Although the language for both the compilers are same,mine is written from scratch in Golang ,implemented by instructions of his post.
 
 # License
 This Software has been licensed under [MIT](https://github.com/varbhat/bast/blob/master/LICENSE)
