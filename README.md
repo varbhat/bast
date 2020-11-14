@@ -67,6 +67,7 @@ You can find more examples at [Examples](https://github.com/varbhat/bast/tree/ma
 # Thanks
 Thanks to [AZHenly](https://github.com/AZHenley) for their post  [Let's make a Teeny Tiny compiler](http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html) which acted as reference. 
 But , instructions in that post are for Python and the compiler is implemented in Python. I who wanted to know more about compiler , read it as reference , wrote the compiler from scratch in Golang.
+
 Although the language for both the compilers are same,`bast` compiler is written from scratch in Golang ,implemented by instructions of their post.
 
 # License
