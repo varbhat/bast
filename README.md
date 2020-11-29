@@ -71,4 +71,4 @@ But , instructions in that post are for Python and the compiler is implemented i
 Although the language for both the compilers are same,`bast` compiler is written from scratch in Golang ,implemented by instructions of their post.
 
 ## License
-This Software has been licensed under [MIT](LICENSE)
+[MIT](LICENSE)
