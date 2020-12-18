@@ -1,5 +1,5 @@
-// Parser for BAST ( Also emits C code)
 package main
+// Parser for BAST ( Also emits C code)
 
 import (
 	"fmt"
