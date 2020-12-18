@@ -1,5 +1,5 @@
-// Compiler for BAST(Basic Tiny) - A Tiny Toy Basic Dialect
 package main
+// Compiler for BAST(Basic Tiny) - A Tiny Toy Basic Dialect
 
 import (
 	"flag"
