@@ -1,5 +1,5 @@
-// Lexer for BAST
 package main
+// Lexer for BAST
 
 import (
 	"fmt"
