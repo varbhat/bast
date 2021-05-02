@@ -64,7 +64,7 @@ ENDWHILE
 ```
 You can find more examples at [Examples](https://github.com/varbhat/bast/tree/master/examples)
 
-## Thanks
+## Acknowledgements
 Thanks to [AZHenly](https://github.com/AZHenley) for their post  [Let's make a Teeny Tiny compiler](http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html) which acted as reference. 
 But , instructions in that post are for Python and the compiler is implemented in Python. I who wanted to know more about compiler , read it as reference , wrote the compiler from scratch in Golang.
 
