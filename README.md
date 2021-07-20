@@ -8,7 +8,7 @@ This compiler takes code written in bast and compiles(transpiles) to C code.You 
 This provided the opportunity to learn about lexing,parsing and to learn more Golang. I believe that this toy language will not be used other than for educational purpose(for people like past-me).
 
 ## Installation 
-You can download binary for your OS from [Releases](https://github.com/varbhat/torpar/releases/latest) . Also , if you have [Go](https://golang.org/) installed , you can install `bast` by typing this in terminal.
+You can download binary for your OS from [Releases](https://github.com/varbhat/bast/releases/latest) . Also , if you have [Go](https://golang.org/) installed , you can install `bast` by typing this in terminal.
 
 ```bash
 go install github.com/varbhat/bast@latest
