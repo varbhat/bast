@@ -1,4 +1,5 @@
 package main
+
 // Lexer for BAST
 
 import (
