@@ -1,5 +1,6 @@
-# Bast
-Compiler for BAST(Basic Tiny) - A Tiny Toy Basic Dialect
+<h1 align="center">bast</h1> 
+<p align="center">Compiler for BAST(Basic Tiny) - A Tiny Toy Basic Dialect</p>
+
 
 ## Introduction
 This compiler takes code written in bast and compiles(transpiles) to C code.You need to compile the C code with C compiler (gcc/tcc/clang are tested to work) to produce executable.
@@ -7,10 +8,10 @@ This compiler takes code written in bast and compiles(transpiles) to C code.You 
 This provided the opportunity to learn about lexing,parsing and to learn more Golang. I believe that this toy language will not be used other than for educational purpose(for people like past-me).
 
 ## Installation 
-You can install `bast` compiler by typing in the terminal 
+You can download binary for your OS from [Releases](https://github.com/varbhat/torpar/releases/latest) . Also , if you have [Go](https://golang.org/) installed , you can install `bast` by typing this in terminal.
 
 ```bash
-go get "github.com/varbhat/bast"
+go install github.com/varbhat/bast@latest
 ```
 
 ## Usage
