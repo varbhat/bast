@@ -24,7 +24,7 @@ jobs:
         run: xbps-install -Sy git wget bash go nodejs github-cli
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Build torpar for Linux (amd64 and arm64) and Win (amd64)
+      - name: Build bast for Linux (amd64 and arm64) and Win (amd64)
         run: |
           go mod tidy
           GOOS="linux" GOARCH="amd64" go build -tags netgo -trimpath  --buildmode=pie -ldflags '-s -w' -o build/bast-linux-amd64
